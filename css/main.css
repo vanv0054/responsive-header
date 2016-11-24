@@ -10,8 +10,17 @@ html {
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
   text-size-adjust: 100%;
+  font-family: 'Ubuntu', sans-serif;
 }
 
 *, *::before, *::after {
   box-sizing: inherit;
+}
+
+header {
+  background-color: #18294f;
+}
+
+h1 {
+  color: #fff;
 }
