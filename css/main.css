@@ -34,6 +34,7 @@ nav a {
   color: #6c8fe0;
   text-decoration: none;
   padding: 5px;
+  white-space: nowrap;
 }
 
 li {
@@ -60,11 +61,10 @@ nav {
   margin-top: -1.2em;
 }
 
-
 @media only screen and (min-width: 25em) {
 
   html {
-  font: normal 100%/1.3 Ubuntu, sans-serif;
+    font: normal 100%/1.3 Ubuntu, sans-serif;
   }
 
   ul {
@@ -82,9 +82,9 @@ nav {
 @media only screen and (min-width: 38em) {
 
   html {
-  font: normal 110%/1.4 Ubuntu, sans-serif;
-  font-size: 110%;
-  line-height: 1.4
+    font: normal 110%/1.4 Ubuntu, sans-serif;
+    font-size: 110%;
+    line-height: 1.4;
   }
 
 }
@@ -92,9 +92,14 @@ nav {
 @media only screen and (min-width: 60em) {
 
   html {
-  font: normal 120%/1.5 Ubuntu, sans-serif;
-  font-size: 120%;
-  line-height: 1.5;
+    font: normal 120%/1.5 Ubuntu, sans-serif;
+    font-size: 120%;
+    line-height: 1.5;
+  }
+
+  li {
+    float: right;
+    width: 25%;
   }
 
 }
@@ -102,9 +107,9 @@ nav {
 @media only screen and (min-width: 90em) {
 
   html {
-  font: normal 130%/1.5 Ubuntu, sans-serif;
-  font-size: 130%;
-  line-height: 1.5;
+    font: normal 130%/1.5 Ubuntu, sans-serif;
+    font-size: 130%;
+    line-height: 1.5;
   }
 
 }
